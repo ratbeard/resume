@@ -1,0 +1,96 @@
+                         Mike Frawley
+                         952-913-3078
+                         frawl021@gmail.com
+
+Objective:  Build simple, enjoyable web applications.
+
+Languages:  Ruby, Javascript, HTML, CSS, C#, SQL, Python, C, C++, VB6, Mumps
+Framework:  Ruby on Rails, Sinatra, Couchdb, jQuery, ExtJS, JSpec, Git
+Strengths:  Testing, Object Oriented Design, Technical Writing
+
+Education:  Bachelors of Science in Computer Science. Graduated May 2007
+            Institute of Technology, University of Minnesota
+            3.5 Cumulative GPA.  Deans List Spring 2006
+
+Experience:
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Software Consultant                                      April 2010 - Present
+Champ Software                                                    Mankato, MN
+
+Add functionality to Champ's Ruby on Rails healthcare application to 
+communicate with state immunization registries using HL7 messages.
+
+- Implemented a declarative ruby Hl7 parsing and generation library, and 
+  integrated it with rails.
+- Using prawn pdf library to generate complex federal health forms.
+- Extensive testing with Rspec and factory_girl.
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Lead Software Developer                                  March 2009 - Present
+Pillarsoft Inc.                                               Minneapolis, MN
+
+Built a financial risk analysis application with Ruby on Rails, Couchdb, and
+the ExtJS framework.  
+
+- Created a javascript calculation engine that runs both on the client and 
+  server, to get high client-side interactivity without duplicating logic.
+- Designed a declarative language for specifying calculations that enables the
+  financial experts to define all sheet logic themselves.
+- Heavy use of the ExtJS javascript UI framework, including building several
+  controls.  Unit and interaction tested with the JSpec testing framework.
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Software Developer                             September 2008 - February 2009 
+Black River Asset Management LLC                               Minnetonka, MN
+
+Worked on a .NET desktop risk analysis application built with nHibernate, 
+CSLA, and the DevExpress frameworks.
+
+- Wrote ruby scripts to generate boilerplate CSLA and nHibernate files based 
+  off the database schema.  Exposed it to coworkers as a Sinatra web service.
+- Setup blogging software for our development team.  Wrote articles on topics 
+  including using nUnit, UI design, and safe merging in svn.
+- Heavy usage of SQL and oracle's PSQL, including project to generate email 
+  reports from inside the database.
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Software Developer                               September 2007 - August 2008
+Epic Systems Corporation                                          Madison, WI
+
+Worked on the Real Time Eligibility team, writing software to interface with 
+3rd parties for insurance claims processing via the HL7 and X12 messaging 
+formats.  Wrote client/server applications in Mumps, VB6, and C#.
+
+- Lead technical implementer for a five month software rollout at a major 
+  hospital.  Made weekly calls and several on site visits, performed extensive 
+  setup and testing, and developed custom functionality the customer required.
+- Developed several tools for our server side language, Mumps, including a  
+  unit testing framework and an iteration library.  Asked to join the core 
+  developer tools team.
+- Participated in frequent code reviews.
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Software Consultant                                               August 2007
+South East Asia Refugee Community Home                        Minneapolis, MN
+
+Built an information tracking system using Zoho Creator to help a non-profit 
+track the results of their refugee job placement programs.
+
+- Wrote many custom views and logic using the Deluge scripting language,  
+  including an access control system and email reports.
+- Created and presented training materials to employees.
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Software Developer Intern                             June 2006 - August 2006
+Datacard Group                                                 Minnetonka, MN
+
+Updated Datacard's printer diagnostics software with features for an upcoming 
+desktop printer using Visual C++ and MFC.
+
+- Refactored the code base, increasing readability while cutting the number of
+  lines of code of several major files by 40%.
+- Finished project early and joined the rest of the developers in adding 
+  functionality to the windows driver for the new printer, coding in C.
+- Self-motivated redesign of several screens to improve usability.  After 
+  building a prototype and getting approval, implemented the design.
