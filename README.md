@@ -6,4 +6,5 @@ I've been getting comfortable with prawn recently, so I decided to write a quick
 
 The resume data is pulled from the text version using a simple handwritten "parser", instead of being stored in YAML or some data format, which I find nicer.
 
+To generate the pdf, just run `ruby resume.rb`
 ˙∆˚

@@ -10,7 +10,6 @@ module Resume
   
   def self.convert
     reader = Reader.new(FILE + '.txt')
-    pp reader.data
     Writer.new(FILE + '.pdf', reader)
     `open #{FILE + '.pdf'}`
   end
@@ -22,7 +21,7 @@ module Resume
       @experiences = []
       parse(@str)
     end
-    attr_accessor :lines, :data, :str
+    attr_accessor :str
     
     attr_reader :name, :phone, :email, :groups, :experiences
     attr_reader :objective, :languages, :frameworks, :strengths, :education
