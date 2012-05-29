@@ -35,11 +35,11 @@ Health, and Dairy Queen.
 Software Consultant                                    April 2010 - July 2010
 Champ Software                                                    Mankato, MN
 
-Add functionality to Champ's Ruby on Rails healthcare application to 
-communicate with state immunization registries using HL7 messages.
+Enhanced Champ's Ruby on Rails healthcare application with infrastructure for
+communicating with state immunization registries using HL7 messages.
 
-- Implemented a declarative ruby Hl7 parsing and generation library, and 
-  integrated it with rails.
+- Implemented a declarative ruby Hl7 parsing and generation library and 
+  integrated it with a large rails application.
 - Using prawn pdf library to generate complex federal health forms.
 - Extensive testing with Rspec and factory_girl.
 
@@ -48,14 +48,15 @@ Lead Software Developer                                March 2009 - July 2010
 Pillarsoft Inc.                                               Minneapolis, MN
 
 Built a financial risk analysis application with Ruby on Rails, Couchdb, and
-the ExtJS framework.  
+the ExtJS framework.
 
-- Created a javascript calculation engine that runs both on the client and 
-  server, to get high client-side interactivity without duplicating logic.
-- Designed a declarative language for specifying calculations that enables the
-  financial experts to define all sheet logic themselves.
+- Created a javascript calculation engine that ran both in the browser and on
+  the server to get high client-side interactivity without duplicating logic.
+- Built a declarative language for financial calculations that automatically
+  computed execution order, allowing business experts to write all formulas 
+  themselves.
 - Heavy use of the ExtJS javascript UI framework, including building several
-  controls.  Unit and interaction tested with the JSpec testing framework.
+  controls.  Large clientside unit and interactive test suite using JSpec.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Software Developer                             September 2008 - February 2009 
@@ -83,7 +84,7 @@ formats.  Wrote client/server applications in Mumps, VB6, and C#.
   hospital.  Made weekly calls and several on site visits, performed extensive 
   setup and testing, and developed custom functionality the customer required.
 - Developed several tools for our server side language, Mumps, including a  
-  unit testing framework and an iteration library.  Asked to join the core 
+  unit testing framework and a collections library.  Asked to join the core 
   developer tools team.
 - Participated in frequent code reviews.
 
@@ -91,23 +92,20 @@ formats.  Wrote client/server applications in Mumps, VB6, and C#.
 Software Consultant                                               August 2007
 South East Asia Refugee Community Home                        Minneapolis, MN
 
-Built an information tracking system using Zoho Creator to help a non-profit 
-track the results of their refugee job placement programs.
+Built an information tracking system and trained employees to use it to allow
+a non-profit to track the results of their job placement programs.
 
-- Wrote many custom views and logic using the Deluge scripting language,  
+- Wrote custom views and logic using the Deluge language on Zoho Creator,  
   including an access control system and email reports.
-- Created and presented training materials to employees.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Software Developer Intern                             June 2006 - August 2006
 Datacard Group                                                 Minnetonka, MN
 
-Updated Datacard's printer diagnostics software with features for an upcoming 
-desktop printer using Visual C++ and MFC.
+Updated Datacard's printer diagnostics software with new features, using C 
+and Visual C++.
 
-- Refactored the code base, increasing readability while cutting the number of
-  lines of code of several major files by 40%.
 - Finished project early and joined the rest of the developers in adding 
-  functionality to the windows driver for the new printer, coding in C.
+  functionality to the low-level windows driver for a new printer.
 - Self-motivated redesign of several screens to improve usability.  After 
   building a prototype and getting approval, implemented the design.
