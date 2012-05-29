@@ -15,7 +15,12 @@ Education:  Bachelors of Science in Computer Science
 Experience:
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Software Consultant                                      April 2010 - Present
+Creative Tech                                           August 2010 - Present
+space150                                                      Minneapolis, MN
+
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Software Consultant                                    April 2010 - July 2010
 Champ Software                                                    Mankato, MN
 
 Add functionality to Champ's Ruby on Rails healthcare application to 
@@ -27,7 +32,7 @@ communicate with state immunization registries using HL7 messages.
 - Extensive testing with Rspec and factory_girl.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Lead Software Developer                                  March 2009 - Present
+Lead Software Developer                                March 2009 - July 2010
 Pillarsoft Inc.                                               Minneapolis, MN
 
 Built a financial risk analysis application with Ruby on Rails, Couchdb, and
