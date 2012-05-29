@@ -15,9 +15,21 @@ Education:  Bachelors of Science in Computer Science
 Experience:
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Creative Tech                                           August 2010 - Present
+Creative Tech                                             July 2010 - Present
 space150                                                      Minneapolis, MN
 
+Performed the full specturm of web developement roles at an interactive agency,
+from layout and javascript to ruby on rails and system administration.  
+Helped deliver dozens of projects for clients like American Express, Optum 
+Health, and Dairy Queen.
+
+- Built and deployed rails applications to both traditional and cloud based 
+  environments including heroku, amazon s3 & ec2, and twilio.
+- Advised teammates on javascript architecture and framework decisions in 
+  person, through tech presentations, and by maintaining our internal 
+  engineering blog.
+- Partnered with designers to build several interactive html/css/js animated 
+  pages, including three animated homepages for cambriausa.com
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Software Consultant                                    April 2010 - July 2010
