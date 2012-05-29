@@ -5,7 +5,7 @@
 Objective:  Build web applications in an agile environment.
 
 Languages:  Ruby, Javascript, HTML, CSS, C#
-Frameworks:  Ruby on Rails, jQuery, ExtJS, Knockout, Backbone, Couchdb
+Frameworks:  Ruby on Rails, jQuery, Knockout, Backbone, Couchdb, Amazon
 Strengths:  Testing, Object Oriented Design, Technical Writing
 
 Education:  Bachelors of Science in Computer Science
