@@ -96,6 +96,8 @@ module Resume
     end
   end
   
+  
+  # Write pdf to file
   class Writer
     def initialize(filename, data)
       @filename, @data = filename, data
@@ -111,10 +113,13 @@ module Resume
     
     def render
       font_size 10
+      fill_color "222222"
+      stroke_color "999999"
       # font "/System/Library/Fonts/HelveticaNeue.dfont"
-
+      
       render_top
       render_experiences
+      
       super
     end
     
@@ -145,6 +150,7 @@ module Resume
         [nil, nil],
         [nil, nil]
       ], :column_widths => [left_width, right_width], :cell_style => {:borders => [], :padding => 1})
+      move_down 5
     end
     
     def render_experiences
@@ -152,25 +158,26 @@ module Resume
     end
           
     def render_experience(experience)
-       # start new page, kinda hacky:
+      # Start a new page, if the amount of space left on this page is an arbitrary number:
       bounds.move_past_bottom if cursor < 100
       
       stroke_horizontal_rule
-      move_down 10
+      move_down 15
       
       edges_text(experience.role, experience.time)
       edges_text(experience.company, experience.location)
       move_down 10
+
+      indent 20 do      
+        text experience.summary
+        move_down 5
       
-      text experience.summary
-      move_down 5
-      
-      experience.points.each do |point|
-        indent 20 do
+        experience.points.each do |point|
           bullet(point)
         end
       end
-      move_down 10
+
+      move_down 15
     end
     
     def nbsp(count=1)
