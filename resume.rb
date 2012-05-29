@@ -87,9 +87,12 @@ module Resume
     end
     
     # Remove newlines
-    # Remove multiple spaces not following a period
+    # Remove multiple spaces, not following a period
     def cleanup(str)
-      str.gsub(/\n/, '').gsub(/[^.]\s{2,}/, ' ')
+      str.
+        gsub(/\n/, ' ').
+        gsub(/\s{2,}/, ' ').
+        gsub(/\.\s/, '.  ')
     end
   end
   
@@ -101,13 +104,21 @@ module Resume
     end
   end
   
+  
+  # Heres my resume, as a pdf
   class PDF < Prawn::Document
     attr_accessor :data
     
     def render
       font_size 10
       # font "/System/Library/Fonts/HelveticaNeue.dfont"
-      
+
+      render_top
+      render_experiences
+      super
+    end
+    
+    def render_top
       # top
       text @data.name, :align => :center, :size => 14
       text @data.phone, :align => :center, :size => 12
@@ -127,14 +138,17 @@ module Resume
         ['Frameworks:', @data.frameworks],
         ['Strengths:', @data.strengths],
         ['Education:', @data.education],
-        ['Experience:', nil],
+        # ['Experience:', nil],
+        [nil, nil],
+        [nil, nil],
         [nil, nil],
         [nil, nil],
         [nil, nil]
       ], :column_widths => [left_width, right_width], :cell_style => {:borders => [], :padding => 1})
-
+    end
+    
+    def render_experiences
       @data.experiences.each {|e| render_experience(e) }
-      super
     end
           
     def render_experience(experience)
@@ -146,13 +160,15 @@ module Resume
       
       edges_text(experience.role, experience.time)
       edges_text(experience.company, experience.location)
-      move_down 5
+      move_down 10
       
       text experience.summary
-      move_down 3
+      move_down 5
       
       experience.points.each do |point|
-        bullet(point)
+        indent 20 do
+          bullet(point)
+        end
       end
       move_down 10
     end
@@ -163,9 +179,10 @@ module Resume
     
     def bullet(text)
       bullet_width = 10
-      table([
-        ["#{nbsp}*#{nbsp}", text],
-      ], :column_widths => [bullet_width, bounds.width - bullet_width], :cell_style => {:borders => [], :padding => [2,0,0,0]})
+      table(
+        [["#{nbsp}•#{nbsp}", text]], 
+        :column_widths => [bullet_width, bounds.width - bullet_width], 
+        :cell_style => {:borders => [], :padding => [2,0,0,0]})
     end
     
     # draw left and right aligned text on the same line

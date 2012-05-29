@@ -4,7 +4,7 @@
 
 Objective:  Build web applications in an agile environment.
 
-Languages:  Ruby, Javascript, HTML, CSS, C#
+Languages:  Ruby, Javascript, HTML, CSS, C#, SQL
 Frameworks:  Ruby on Rails, jQuery, Knockout, Backbone, Couchdb, Amazon
 Strengths:  Testing, Object Oriented Design, Technical Writing
 
@@ -35,13 +35,13 @@ Health, and Dairy Queen.
 Software Consultant                                    April 2010 - July 2010
 Champ Software                                                    Mankato, MN
 
-Enhanced Champ's Ruby on Rails healthcare application with infrastructure for
+Enhanced Champ's Ruby on Rails healthcare application with infrastructure for 
 communicating with state immunization registries using HL7 messages.
 
 - Implemented a declarative ruby Hl7 parsing and generation library and 
   integrated it with a large rails application.
 - Using prawn pdf library to generate complex federal health forms.
-- Extensive testing with Rspec and factory_girl.
+- Extensive testing with rspec and factory_girl.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Lead Software Developer                                March 2009 - July 2010
@@ -50,9 +50,9 @@ Pillarsoft Inc.                                               Minneapolis, MN
 Built a financial risk analysis application with Ruby on Rails, Couchdb, and
 the ExtJS framework.
 
-- Created a javascript calculation engine that ran both in the browser and on
+- Created a javascript calculation engine that ran both in the browser and on 
   the server to get high client-side interactivity without duplicating logic.
-- Built a declarative language for financial calculations that automatically
+- Built a declarative language for financial calculations that automatically 
   computed execution order, allowing business experts to write all formulas 
   themselves.
 - Heavy use of the ExtJS javascript UI framework, including building several
@@ -69,8 +69,8 @@ CSLA, and the DevExpress frameworks.
   off the database schema.  Exposed it to coworkers as a Sinatra web service.
 - Setup blogging software for our development team.  Wrote articles on topics 
   including using nUnit, UI design, and safe merging in svn.
-- Heavy usage of SQL and oracle's PSQL, including project to generate email 
-  reports from inside the database.
+- Wrote SQL and oracle's PSQL, including project to generate email reports 
+  from inside the database.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Software Developer                               September 2007 - August 2008
