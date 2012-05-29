@@ -117,7 +117,7 @@ module Resume
       left_width = 70
       right_width = bounds.width - left_width
       
-      # quick and dirty:
+      # quick and dirty, just make some blank lines for now:
       table([
         ['Objective:', @data.objective],
         [nil, nil],
@@ -164,7 +164,7 @@ module Resume
     def bullet(text)
       bullet_width = 10
       table([
-        ["#{nbsp}•#{nbsp}", text],
+        ["#{nbsp}*#{nbsp}", text],
       ], :column_widths => [bullet_width, bounds.width - bullet_width], :cell_style => {:borders => [], :padding => [2,0,0,0]})
     end
     
