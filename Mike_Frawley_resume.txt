@@ -2,15 +2,15 @@
                          952-913-3078
                          frawl021@gmail.com
 
-Objective:  Build simple, enjoyable web applications.
+Objective:  Build web applications in an agile environment.
 
-Languages:  Ruby, Javascript, HTML, CSS, C#, SQL, Python, C, C++, VB6, Mumps
-Framework:  Ruby on Rails, Sinatra, Couchdb, jQuery, ExtJS, JSpec, Git
+Languages:  Ruby, Javascript, HTML, CSS, C#
+Frameworks:  Ruby on Rails, jQuery, ExtJS, Knockout, Backbone, Couchdb
 Strengths:  Testing, Object Oriented Design, Technical Writing
 
-Education:  Bachelors of Science in Computer Science. Graduated May 2007
+Education:  Bachelors of Science in Computer Science
             Institute of Technology, University of Minnesota
-            3.5 Cumulative GPA.  Deans List Spring 2006
+            Graduated May 2007, 3.5 Cumulative GPA
 
 Experience:
 
