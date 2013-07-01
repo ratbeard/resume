@@ -15,7 +15,7 @@ Education:  Bachelors of Science in Computer Science
 Experience:
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Creative Tech                                             July 2010 - Present
+Software Engineer                                             July 2010 - Present
 space150                                                      Minneapolis, MN
 
 Performed the full specturm of web developement roles at an interactive agency,
