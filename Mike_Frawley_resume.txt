@@ -1,12 +1,10 @@
                          Mike Frawley
                          952-913-3078
                          frawl021@gmail.com
+                         http://www.mikefrawley.com
 
-Objective:  Build web applications in an agile environment.
-
-Languages:  Ruby, Javascript, HTML, CSS, C#, SQL
-Frameworks:  Ruby on Rails, jQuery, Knockout, Backbone, Couchdb, Amazon
-Strengths:  Testing, Object Oriented Design, Technical Writing
+I'm a developer with strong skills in Ruby, Rails, Javascript, HTML/CSS, and
+system administration. My portfolio is available on my website.
 
 Education:  Bachelors of Science in Computer Science
             Institute of Technology, University of Minnesota
@@ -15,21 +13,17 @@ Education:  Bachelors of Science in Computer Science
 Experience:
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Software Engineer                                             July 2010 - Present
+Senior Software Engineer                                  July 2010 - Present
 space150                                                      Minneapolis, MN
 
-Performed the full specturm of web developement roles at an interactive agency,
-from layout and javascript to ruby on rails and system administration.  
-Helped deliver dozens of projects for clients like American Express, Optum 
-Health, and Dairy Queen.
+Performed everything from layout and html5 animations to lead rails developer
+and system administration. Helped deliver dozens of projects for clients like
+American Express, Optum Health, and Dairy Queen.
 
 - Built and deployed rails applications to both traditional and cloud based 
-  environments including heroku, amazon s3 & ec2, and twilio.
-- Advised teammates on javascript architecture and framework decisions in 
-  person, through tech presentations, and by maintaining our internal 
-  engineering blog.
-- Partnered with designers to build several interactive html/css/js animated 
-  pages, including three animated homepages for cambriausa.com
+  environments including heroku, rackspace, s3 & ec2, and twilio.
+- Advised teammates on javascript architecture and framework decisions.
+- Voted Employee of the month for hard work on 3M Innovation project.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Software Consultant                                    April 2010 - July 2010
@@ -38,8 +32,6 @@ Champ Software                                                    Mankato, MN
 Enhanced Champ's Ruby on Rails healthcare application with infrastructure for 
 communicating with state immunization registries using HL7 messages.
 
-- Implemented a declarative ruby Hl7 parsing and generation library and 
-  integrated it with a large rails application.
 - Using prawn pdf library to generate complex federal health forms.
 - Extensive testing with rspec and factory_girl.
 
@@ -52,9 +44,8 @@ the ExtJS framework.
 
 - Created a javascript calculation engine that ran both in the browser and on 
   the server to get high client-side interactivity without duplicating logic.
-- Built a declarative language for financial calculations that automatically 
-  computed execution order, allowing business experts to write all formulas 
-  themselves.
+- Built a declarative language for calculations allowing business experts to
+  write all formulas themselves.
 - Heavy use of the ExtJS javascript UI framework, including building several
   controls.  Large clientside unit and interactive test suite using JSpec.
 
@@ -69,43 +60,24 @@ CSLA, and the DevExpress frameworks.
   off the database schema.  Exposed it to coworkers as a Sinatra web service.
 - Setup blogging software for our development team.  Wrote articles on topics 
   including using nUnit, UI design, and safe merging in svn.
-- Wrote SQL and oracle's PSQL, including project to generate email reports 
-  from inside the database.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Software Developer                               September 2007 - August 2008
 Epic Systems Corporation                                          Madison, WI
 
-Worked on the Real Time Eligibility team, writing software to interface with 
-3rd parties for insurance claims processing via the HL7 and X12 messaging 
-formats.  Wrote client/server applications in Mumps, VB6, and C#.
+Wrote software to communicate with 3rd party systems via HL7 and X12 messaging
+formats using Mumps, VB6, and C#.
 
 - Lead technical implementer for a five month software rollout at a major 
   hospital.  Made weekly calls and several on site visits, performed extensive 
   setup and testing, and developed custom functionality the customer required.
-- Developed several tools for our server side language, Mumps, including a  
-  unit testing framework and a collections library.  Asked to join the core 
-  developer tools team.
-- Participated in frequent code reviews.
-
-~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Software Consultant                                               August 2007
-South East Asia Refugee Community Home                        Minneapolis, MN
-
-Built an information tracking system and trained employees to use it to allow
-a non-profit to track the results of their job placement programs.
-
-- Wrote custom views and logic using the Deluge language on Zoho Creator,  
-  including an access control system and email reports.
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Software Developer Intern                             June 2006 - August 2006
 Datacard Group                                                 Minnetonka, MN
 
-Updated Datacard's printer diagnostics software with new features, using C 
-and Visual C++.
+Updated Datacard's printer diagnostics software with new features, using C and
+Visual C++. 
 
-- Finished project early and joined the rest of the developers in adding 
+- Finished project early and joined the rest of the developers in adding
   functionality to the low-level windows driver for a new printer.
-- Self-motivated redesign of several screens to improve usability.  After 
-  building a prototype and getting approval, implemented the design.
