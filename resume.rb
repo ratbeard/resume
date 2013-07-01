@@ -23,8 +23,8 @@ module Resume
     end
     attr_accessor :str
     
-    attr_reader :name, :phone, :email, :groups, :experiences
-    attr_reader :objective, :languages, :frameworks, :strengths, :education
+    attr_reader :name, :phone, :email, :website, :groups, :experiences
+    attr_reader :intro, :education
     
     def parse(str)
       # get the '~ ~ ~ ...' experience line seperator:
@@ -40,12 +40,12 @@ module Resume
     
     # quick and dirty for now:
     def parse_top(top)
-      @name, @phone, @email, *rest = top.split("\n")
-
-      _, @objective, _, @languages, @frameworks, @strengths, *rest2 = rest
-      @education = rest2[1..3].join("\n")
+      @name, @phone, @email, @website, _, intro1, intro2, _, edu1, edu2, edu3 = top.split("\n")
       
-      [@objective, @languages, @frameworks, @strengths, @education].each {|s| 
+      @intro = [intro1, intro2].join(" ")
+      @education = [edu1, edu2, edu3].join("\n")
+      
+      [@intro, @education].each {|s| 
         s.gsub!(/^\w+:/, '')
       }
       
@@ -80,7 +80,7 @@ module Resume
         
         # cleanup summary and experience points
         summary = cleanup(summary)
-        points = points.split(/-\s/)[1..-1].map {|point| cleanup(point)}
+        points = points.split(/-\s/)[1..-1].map {|point| cleanup(point)} if points
         
         Experience.new(company, role, time, location, summary, points)
       end
@@ -101,7 +101,7 @@ module Resume
   class Writer
     def initialize(filename, data)
       @filename, @data = filename, data
-      pdf = PDF.new { @data = data }
+      pdf = PDF.new(:margin => [36, 72]) { @data = data }
       pdf.render_file(filename)
     end
   end
@@ -110,6 +110,10 @@ module Resume
   # Heres my resume, as a pdf
   class PDF < Prawn::Document
     attr_accessor :data
+    
+    # def initialize(*)
+    #   super :margin_left => 500
+    # end
     
     def render
       font_size 10
@@ -128,6 +132,7 @@ module Resume
       text @data.name, :align => :center, :size => 14
       text @data.phone, :align => :center, :size => 12
       text @data.email, :align => :center, :size => 12
+      text @data.website, :align => :center, :size => 12
       move_down 5
       
       left_width = 70
@@ -135,13 +140,10 @@ module Resume
       
       # quick and dirty, just make some blank lines for now:
       table([
-        ['Objective:', @data.objective],
         [nil, nil],
         [nil, nil],
         [nil, nil],
-        ['Languages:', @data.languages],
-        ['Frameworks:', @data.frameworks],
-        ['Strengths:', @data.strengths],
+        ['About:', @data.intro],
         ['Education:', @data.education],
         # ['Experience:', nil],
         [nil, nil],
@@ -158,6 +160,7 @@ module Resume
     end
           
     def render_experience(experience)
+      return unless experience
       # Start a new page, if the amount of space left on this page is an arbitrary number:
       bounds.move_past_bottom if cursor < 100
       
@@ -168,7 +171,7 @@ module Resume
       edges_text(experience.company, experience.location)
       move_down 10
 
-      indent 20 do      
+      indent 0 do      
         text experience.summary
         move_down 5
       
