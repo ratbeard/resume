@@ -1,7 +1,7 @@
                          Mike Frawley
-                         952-913-3078
-                         frawl021@gmail.com
                          http://www.mikefrawley.com
+                         frawl021@gmail.com
+                         952-913-3078
 
 I'm a developer with strong skills in Ruby, Rails, Javascript, HTML/CSS, and
 system administration. My portfolio is available on my website.
@@ -20,8 +20,8 @@ Performed everything from layout and html5 animations to lead rails developer
 and system administration. Helped deliver dozens of projects for clients like
 American Express, Optum Health, and Dairy Queen.
 
-- Built and deployed rails applications to both traditional and cloud based 
-  environments including heroku, rackspace, s3 & ec2, and twilio.
+- Built and deployed rails applications to both traditional linux servers and
+  cloud environments including heroku, rackspace, s3 & ec2, and twilio.
 - Advised teammates on javascript architecture and framework decisions.
 - Voted Employee of the month for hard work on 3M Innovation project.
 

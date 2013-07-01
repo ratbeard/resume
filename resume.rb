@@ -40,7 +40,7 @@ module Resume
     
     # quick and dirty for now:
     def parse_top(top)
-      @name, @phone, @email, @website, _, intro1, intro2, _, edu1, edu2, edu3 = top.split("\n")
+      @name, @website, @email, @phone, _, intro1, intro2, _, edu1, edu2, edu3 = top.split("\n")
       
       @intro = [intro1, intro2].join(" ")
       @education = [edu1, edu2, edu3].join("\n")
@@ -129,11 +129,14 @@ module Resume
     
     def render_top
       # top
-      text @data.name, :align => :center, :size => 14
-      text @data.phone, :align => :center, :size => 12
-      text @data.email, :align => :center, :size => 12
-      text @data.website, :align => :center, :size => 12
-      move_down 5
+      y = cursor
+      text @data.name, :align => :left, :size => 18
+      text @data.website, :align => :left,  :size => 12
+      move_cursor_to y
+      move_down 3
+      text @data.email, :align => :right, :size => 10
+      text @data.phone, :align => :right, :size => 10
+      move_down 12
       
       left_width = 70
       right_width = bounds.width - left_width
